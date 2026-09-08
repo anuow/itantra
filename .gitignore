@@ -1,0 +1,29 @@
+# Python virtual environment
+venv/
+
+# Python cache
+__pycache__/
+*.py[cod]
+
+# Flutter/Dart generated files
+.dart_tool/
+.flutter-plugins
+.flutter-plugins-dependencies
+.packages
+.pub-cache/
+build/
+
+# Android/Gradle generated files
+.gradle/
+android/.gradle/
+android/local.properties
+
+# IDE
+.idea/
+.vscode/
+
+# Large ASR test data
+data/**/*.wav
+
+# Python/model caches
+*.pyc

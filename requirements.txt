@@ -1,0 +1,21 @@
+# Core
+torch>=2.1.0
+torchaudio>=2.1.0
+soundfile
+librosa
+
+# STT (AI4Bharat IndicConformer is a NeMo model)
+nemo_toolkit[asr]
+jiwer          # WER computation
+
+# TTS (AI4Bharat Indic Parler-TTS is a transformers/parler-tts model)
+transformers>=4.40.0
+parler-tts @ git+https://github.com/huggingface/parler-tts.git
+
+# Dataset access for benchmark sets (Vistaar / Common Voice)
+datasets
+huggingface_hub
+
+# Utility
+tabulate
+tqdm
